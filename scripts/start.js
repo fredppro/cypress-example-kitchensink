@@ -13,4 +13,6 @@ console.log(`Running "${cmd}"...`)
 
 console.log("Quantas vezes preciso de fazer isto x4")
 
+console.log("Quantas vezes preciso de fazer isto x4")
+
 execSync(cmd, { stdio: 'inherit' })
