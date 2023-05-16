@@ -9,6 +9,6 @@ if (process.argv.length > 2) cmd += ` ${process.argv.slice(2).join(' ')}`
 
 // eslint-disable-next-line no-console
 console.log(`Running "${cmd}"...`)
-console.log("Quantas vezes preciso de fazer isto")
+console.log("Quantas vezes preciso de fazer isto x2")
 
 execSync(cmd, { stdio: 'inherit' })
