@@ -11,9 +11,4 @@ if (process.argv.length > 2) cmd += ` ${process.argv.slice(2).join(' ')}`
 console.log(`Running "${cmd}"...`)
 
 
-console.log("Outro commit")
-console.log("Outro commit")
-console.log("Outro commit")
-console.log("Outro commit")
-
 execSync(cmd, { stdio: 'inherit' })
