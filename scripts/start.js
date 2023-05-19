@@ -12,5 +12,7 @@ console.log(`Running "${cmd}"...`)
 
 
 console.log("Outro commit")
+console.log("Outro commit")
+console.log("Outro commit")
 
 execSync(cmd, { stdio: 'inherit' })
